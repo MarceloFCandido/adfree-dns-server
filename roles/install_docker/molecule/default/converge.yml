@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include me.install_docker"
+      include_role:
+        name: "me.install_docker"
