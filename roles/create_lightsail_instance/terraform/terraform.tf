@@ -1,4 +1,12 @@
 terraform {
+  cloud {
+    organization = "my_cloudlab"
+
+    workspaces {
+      name = "dev"
+    }
+  }
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"

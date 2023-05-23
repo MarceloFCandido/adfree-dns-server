@@ -1,0 +1,18 @@
+galaxy_info:
+  author: MarceloFCandido
+  namespace: me
+  description: Creates lightsail instance using Terraform project
+  company: me
+
+  license: MIT
+
+  min_ansible_version: '2.13'
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+
+  galaxy_tags: []
+
+dependencies: []
