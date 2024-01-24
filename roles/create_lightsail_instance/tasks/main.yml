@@ -1,9 +1,0 @@
----
-- name: Apply desired action using Terraform
-  community.general.terraform:
-    binary_path: "{{ terraform_binary_path }}"
-    force_init: true
-    plan_file: "{{ role_path }}/../../{{ stage }}.tfplan"
-    project_path: "{{ role_path }}/terraform"
-    state: "{{ desired_state }}"
-  register: terraform_output

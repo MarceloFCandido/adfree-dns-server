@@ -1,7 +1,0 @@
----
-- name: Converge
-  hosts: all
-  tasks:
-    - name: "Include me.create_lightsail_instance"
-      include_role:
-        name: "me.create_lightsail_instance"
